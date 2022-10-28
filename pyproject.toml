@@ -1,7 +1,8 @@
 [tool.poetry]
-name = "boilerplate"
+name = "erica"
 version = "0.1.0"
-description = "black, isort and mypy(strict) environments."
+description = "flask-like zero denpendency web server."
+authors = ["Ryu Juheon <saidbysolo@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -18,14 +19,14 @@ pytest = "^7.1.3"
 mypy = "^0.971"
 
 [tool.isort]
-src_paths = ["src"]
+src_paths = ["erica"]
 profile = "black"
 
 [tool.black]
 preview = true
 
 [tool.mypy]
-files = ["src"]
+files = ["erica"]
 strict = true
 
 [build-system]
