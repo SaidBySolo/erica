@@ -125,7 +125,7 @@ class RequestHandler(BaseHTTPRequestHandler):
         return self.raw.decode("utf-8")
 
 
-class App:
+class Erica:
     def __init__(self) -> None:
         self.handlers: List[Dict[str, Any]] = []
 

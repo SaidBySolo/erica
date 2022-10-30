@@ -5,9 +5,9 @@
 ## Sample
 
 ```py
-from erica import App, RequestHandler
+from erica import Erica, RequestHandler
 
-app = App()
+app = Erica()
 
 
 @app.get("/")
