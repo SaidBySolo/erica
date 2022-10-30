@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "erica"
-version = "0.1.0"
+version = "0.2.0"
 description = "flask-like zero denpendency web server."
 authors = ["Ryu Juheon <saidbysolo@gmail.com>"]
 readme = "README.md"
